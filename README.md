@@ -37,9 +37,7 @@ Este proyecto cumple con los siguientes requisitos:
 
 El proyecto está desplegado en un hosting estático y se puede acceder desde la siguiente URL:
 
-[Enlace al Portfolio en Producción](#)
-
-> Nota: La URL será actualizada una vez que el deploy esté completado.
+[Enlace al portfolio](https://desarrollo-practico1.vercel.app/)
 
 ## Instalación
 
@@ -47,4 +45,4 @@ Si deseas clonar y correr este proyecto localmente:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/portfolio.git
+   git clone https://github.com/SantiCombina/desarrollo-practico1.git
