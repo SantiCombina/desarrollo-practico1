@@ -51,6 +51,11 @@ button {
   padding: 8px 16px;
   border-radius: 15px;
   border: 1px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+button:active {
+  filter: brightness(90%);
 }
 
 body {
@@ -160,7 +165,7 @@ nav {
   color: #dadada;
 }
 
-.work_container {
+.section_container {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -170,20 +175,42 @@ nav {
   padding: 100px 60px;
 }
 
-.work_container h2 {
+.section_container h2 {
   font-size: 2rem;
+  text-decoration: underline;;
 }
 
-.projects_container {
+.experience_container {
   backdrop-filter: blur(20px);
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  padding: 40px;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 40px;
+  margin-top: 100px;
+  max-width: 600px;
+}
+
+.experience_container h3 {
+  font-size: 1.5rem;
+}
+
+.experience_container p {
+  color: #dadada;
+}
+
+.project_container {
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  margin-top: 100px;
 }
 
 .cards_container {
@@ -213,18 +240,31 @@ nav {
   transform: translateY(-5px);
 }
 
-.contact_container {
-  min-height: 100dvh;
+.skills_container {
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  padding: 100px 60px;
+  gap: 20px;
+  max-width: 600px;
+  width: 100%;
+  padding: 40px;
 }
 
-.contact_container h2 {
-  font-size: 2rem;
+.skills_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.skill_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .form_container {
@@ -265,15 +305,10 @@ nav {
   padding: 10px;
   width: 100%;
   font-weight: 600;
-  transition: all 0.3s ease-in-out;
 }
 
 .form button:hover {
   background-color: rgb(100, 0, 100);
-}
-
-.form button:active {
-  filter: brightness(85%);
 }
 
 .social_container {
