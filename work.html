@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Document</title>
+    <title>Portolio - Trabajos</title>
 </head>
+
 <body>
     <header>
         <nav>
             <div class="nav_container">
-                <a class="nav_title" href="/">Frontend Developer</a>
+                <a class="nav_title" href="/">FrontDev</a>
                 <ul class="nav_buttons">
                     <li><a href="/">Inicio</a></li>
                     <li><a href="/work.html">Proyectos</a></li>
@@ -21,10 +24,38 @@
         </nav>
     </header>
     <section class="work_container background3">
-        <h1>Proyectos</h1>
-        <p>Estos son algunos de los proyectos en los que he trabajado</p>
+        <div class="projects_container">
+            <h2>Proyectos</h2>
+            <div class="cards_container">
+                <div class="project_card">
+                    <a rel="noreferrer" target="_blank" href="https://todo-list-umber-three.vercel.app/">
+                        <img width="300" src="./images/todo-project.webp" alt="Proyecto lista de tareas">
+                    </a>
+                    <h3>Lista de Tareas</h3>
+                    <p>Organiza tus tareas pendientes y aumenta tu productividad</p>
+                </div>
+                <div class="project_card">
+                    <a rel="noreferrer" target="_blank" href="https://dashboard-payload.vercel.app/">
+                        <img width="300" src="./images/dashboard-project.webp" alt="Proyecto panel de control">
+                    </a>
+                    <h3>Panel de control</h3>
+                    <p>
+                        Visualiza tus datos de manera sencilla y toma decisiones informadas
+                    </p>
+                </div>
+                <div class="project_card">
+                    <a rel="noreferrer" target="_blank" href="https://socket-chat-production-6d06.up.railway.app/">
+                        <img width="300" src="./images/chat-project.webp" alt="Proyecto chat con socket.io">
+                    </a>
+                    <h3>Socket Chat</h3>
+                    <p>Plataforma de chat en tiempo real con mensajería instantánea</p>
+                </div>
+            </div>
+        </div>
+       
     </section>
 
     <script src="scripts/theme.js"></script>
 </body>
+
 </html>
