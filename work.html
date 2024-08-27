@@ -5,25 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Portolio - Trabajos</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="nav_container">
-                <a class="nav_title" href="/">FrontDev</a>
-                <ul class="nav_buttons">
+        <div class="nav_container">
+            <a class="nav_title" href="/">FrontDev</a>
+            <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="nav-list">
                     <li><a href="/">Inicio</a></li>
                     <li><a href="/experience.html">Experiencia</a></li>
                     <li><a href="/work.html">Proyectos</a></li>
                     <li><a href="/skills.html">Conocimientos</a></li>
                     <li><a href="/contact.html">Contacto</a></li>
                 </ul>
-                <button id="theme-toggle">Cambiar tema</button>
-            </div>
-        </nav>
+                <button class="theme-toggle" id="theme-toggle">
+                    <span></span>
+                </button>
+            </nav>
+        </div>
     </header>
     <section class="section_container background3">
         <div class="project_container">
@@ -54,10 +59,10 @@
                 </div>
             </div>
         </div>
-       
+
     </section>
 
-    <script src="scripts/theme.js"></script>
+    <script src="javascript/main.js"></script>
 </body>
 
 </html>
