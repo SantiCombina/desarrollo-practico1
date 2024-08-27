@@ -17,6 +17,9 @@ const savedTheme = localStorage.getItem("theme");
 if (savedTheme === "dark") {
   body.classList.add("dark-mode");
   themeToggleButton.classList.add("dark");
+} else {
+  body.classList.remove("dark-mode");
+  themeToggleButton.classList.add("light");
 }
 
 themeToggleButton.addEventListener("click", () => {
