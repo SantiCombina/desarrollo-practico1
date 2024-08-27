@@ -13,8 +13,11 @@ Este es mi portfolio personal como desarrollador, creado para la materia **Desar
 ## Secciones
 
 - **Inicio**: Una presentación con mi nombre, título y una breve descripción de mi perfil.
-- **Proyectos**: Descripción de proyectos destacados que he realizado.
-- **Contacto**: Formulario para que los visitantes se pongan en contacto conmigo.
+- **Experiencia**: Un resumen de mi trayectoria profesional, destacando las posiciones que he ocupado en empresas como Vercel y Google, y las habilidades adquiridas en el desarrollo de servidores, APIs e interfaces de usuario.
+- **Proyectos**: Descripción de proyectos destacados que he realizado, incluyendo una aplicación de lista de tareas, un panel de control y una plataforma de chat en tiempo real.
+- **Conocimientos**: Un listado de mis competencias técnicas, incluyendo lenguajes de programación, frameworks y herramientas que utilizo en el desarrollo de aplicaciones web y software.
+- **Contacto**: Formulario para que los visitantes se pongan en contacto conmigo, utilizando Formspree para la gestión de los mensajes enviados.
+
 
 ## Tecnologías Utilizadas
 
